@@ -1,0 +1,20 @@
+url: http://29.177.193.4:8000/v1/chat/completions 
+api_key: '123'
+model: qwen2.5_14b_instruct
+wsid: "10697"
+system_prompt: "You are a precise Q&A assistant."
+scoring_prompt: ""
+stream: False
+max_retries: 5
+max_tokens: 128
+temperature: 0
+top_p: 0.001
+top_k: 5
+repetition_penalty: 1.0
+output_seq_len: 128
+max_input_seq_len: 2048
+default_score: -1
+max_concurrency: 64
+num_workers: 64
+tokenizer: null
+apply_chat_template: False
