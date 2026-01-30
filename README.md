@@ -1,5 +1,5 @@
 # CORE
-The official code of paper "CORE: Lossless Compression for Retrieval-Augmented LLMs via Reinforcement Learning"
+The official code of paper "Less Is More: Elevating RAG via Performance-Driven Context Compression"
 
 ## Download Data
 
