@@ -1,4 +1,4 @@
-# The official code of paper "Less Is More: Elevating RAG via Performance-Driven Context Compression"
+# The code of paper "Less Is More: Elevating RAG via Performance-Driven Context Compression"
 
 ## Download Data
 
