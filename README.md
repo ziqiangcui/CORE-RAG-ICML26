@@ -3,7 +3,7 @@ The official code of paper "Less Is More: Elevating RAG via Performance-Driven C
 
 ## Download Data
 
-## Distillation for RL Warm-Start
+## Distillation for Warm-Start
 The distillation training is based on [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory).
 
 Please refer to their documentation for environment setup.
