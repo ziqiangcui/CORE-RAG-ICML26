@@ -14,7 +14,7 @@ llamafactory-cli train examples/train_full/qwen2_5_full_sft_nq_lr5e5_epoch2_bs12
 
 Our RL training implementation is built upon the [verl](https://github.com/volcengine/verl) framework.
 
-1.  **Deploy the LLM generator and Start the vLLM Service:**
+1.  **Deploy the LLM for Reward Calculation:**
     First, run `reward_llm_serve.sh` to deploy the QA LLM. This model is responsible for generating answers, which are subsequently used for reward calculation.
 
 2.  **Configure the Reward Service:**
