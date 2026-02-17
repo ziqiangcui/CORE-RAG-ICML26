@@ -1,9 +1,7 @@
 # The code of paper "Less Is More: Elevating RAG via Performance-Driven Context Compression"
 
-## Download Data
-
 ## Distillation for Warm-Start
-The distillation training is based on [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory).
+The distillation stage is based on [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory).
 
 Please refer to their documentation for environment setup.
 
@@ -14,7 +12,7 @@ cd LLaMA-Factory
 llamafactory-cli train examples/train_full/qwen2_5_full_sft_nq_lr5e5_epoch2_bs128.yaml
 ```
 
-## Start RL Training
+## Performance-Driven RL Training
 
 The training code is based on [verl](https://github.com/volcengine/verl).
 
