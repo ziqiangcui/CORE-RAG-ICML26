@@ -1,7 +1,7 @@
 # The code of paper "Less Is More: Elevating RAG via Performance-Driven Context Compression"
 
-## Distillation for Warm-Start
-The distillation stage is based on [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory).
+## 1. Distillation for Warm-Start
+The implementation for the distillation stage is based on the [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory) framework.
 
 Please refer to their documentation for environment setup.
 
@@ -12,9 +12,9 @@ cd LLaMA-Factory
 llamafactory-cli train examples/train_full/qwen2_5_full_sft_nq_lr5e5_epoch2_bs128.yaml
 ```
 
-## Performance-Driven RL Training
+## 2. Performance-Driven RL Training
 
-The training code is based on [verl](https://github.com/volcengine/verl).
+Our RL training implementation is built upon the [verl](https://github.com/volcengine/verl) framework.
 
 1.  **Deploy the QA LLM and Start the vLLM Service:**
     First, run `reward_llm_serve.sh` to deploy the QA LLM (Large Language Model). This model is responsible for generating answers, which are subsequently used for reward calculation.
