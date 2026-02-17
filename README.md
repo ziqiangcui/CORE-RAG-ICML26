@@ -34,6 +34,6 @@ Our RL training implementation is built upon the [verl](https://github.com/volce
    
     Start RL training by running the script below.
     ```bash
-    cd verl_core
-    sh examples/grpo_trainer/run_qwen2.5-1.5b_compress_nq.sh
+    cd verl_core/examples/grpo_trainer
+    sh run_qwen2.5-1.5b_compress_nq.sh
     ```
