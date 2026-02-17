@@ -7,7 +7,7 @@ After completing the setup and placing the downloaded data into the data directo
 
 ```bash
 cd LLaMA-Factory
-llamafactory-cli train examples/train_full/qwen2_5_full_sft_nq_lr5e5_epoch2_bs128.yaml
+llamafactory-cli train examples/train_full/qwen_full_sft_nq_lr5e5_epoch2_bs128.yaml
 ```
 
 ## 2. Performance-Driven RL Training
