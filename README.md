@@ -1,4 +1,4 @@
-# The code of paper "Less Is More: Elevating RAG via Performance-Driven Context Compression"
+## The code of paper "Less Is More: Elevating RAG via Performance-Driven Context Compression"
 
 ## 1. Distillation for Warm-Start
 The implementation for the distillation stage is based on the [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory) framework. Please refer to their documentation for environment setup.
