@@ -12,9 +12,12 @@ llamafactory-cli train examples/train_full/qwen_full_sft_nq_lr5e5_epoch2_bs128.y
 
 ## 2. Performance-Driven RL Training
 
-![GRPO training reward trajectories](./grpo_training_reward_trajectories.png)
+<div align="center">
+  <img src="./grpo_training_reward_trajectories.png" alt="GRPO training reward trajectories" />
+  <p><strong>Figure: Reward trajectories from two separate training runs. The rewards increase steadily and eventually stabilize, suggesting stable training and convergence.</strong></p>
+</div>
 
-***Figure: Reward trajectories from two separate training runs. The rewards increase steadily and eventually stabilize, suggesting stable training and convergence.***
+
 
 Our RL training implementation is built upon the [verl](https://github.com/volcengine/verl) framework.
 
