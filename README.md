@@ -1,5 +1,9 @@
 ## Less Is More: Elevating RAG via Performance-Driven Context Compression
 
+## 0. Data Download
+The data for the distillation and RL training is awailable at
+https://drive.google.com/drive/folders/1OMKuh7Mj5_Jf45yrPBtP1Apw8A16LiM6?usp=sharing
+
 ## 1. Distillation for Warm-Start
 The implementation for the distillation stage is based on the [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory) framework. Please refer to their documentation for environment setup.
 
